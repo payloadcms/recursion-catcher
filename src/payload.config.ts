@@ -70,6 +70,7 @@ export default buildConfig({
     // defaults to 50
     opsCounterPlugin({
       max: 25,
+      warnAt: 10,
     }),
   ],
 })
