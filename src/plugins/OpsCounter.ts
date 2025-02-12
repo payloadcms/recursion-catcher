@@ -19,7 +19,7 @@ export const opsCounterPlugin =
 
         if (warnAt && currentCount >= warnAt) {
           req.payload.logger.error(
-            `Detected a ${operation} in the "${collection}" collection which has run ${warnAt} times or more.`,
+            `Detected a ${operation} in the "${collection.slug}" collection which has run ${warnAt} times or more.`,
           )
         }
 
